@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "_id": "user-1",
+      "name": "Saviyo",
+      "email": "demo@devvault.app",
+      "password": "password123"
+    },
+    {
+      "_id": "u-1790573988140",
+      "name": "developer",
+      "email": "developer@devvault.app"
+    },
+    {
+      "_id": "u-1790574206261",
+      "name": "saviyogeorge123",
+      "email": "saviyogeorge123@gmail.com"
+    }
+  ],
+  "items": [
+    {
+      "_id": "seed-1",
+      "title": "Custom Hook: useDebounce",
+      "category": "code",
+      "subcategory": "React",
+      "content": "function useDebounce(value, delay) {\n  const [debouncedValue, setDebouncedValue] = useState(value);\n  useEffect(() => {\n    const handler = setTimeout(() => setDebouncedValue(value), delay);\n    return () => clearTimeout(handler);\n  }, [value, delay]);\n  return debouncedValue;\n}",
+      "type": "code",
+      "language": "javascript",
+      "tags": [
+        "react",
+        "hooks"
+      ],
+      "isFavorite": true,
+      "isPinned": true,
+      "createdAt": "2026-09-28T05:38:32.421Z",
+      "updatedAt": "2026-09-28T05:38:32.445Z"
+    },
+    {
+      "_id": "seed-2",
+      "title": "Brand Indigo Palette",
+      "category": "design",
+      "subcategory": "Colors",
+      "type": "color",
+      "colorData": {
+        "hex": "#4f46e5"
+      },
+      "content": "#4f46e5",
+      "tags": [
+        "colors",
+        "brand"
+      ],
+      "isFavorite": true,
+      "isPinned": false,
+      "createdAt": "2026-09-28T04:38:32.445Z",
+      "updatedAt": "2026-09-28T05:38:32.445Z"
+    }
+  ]
+}
